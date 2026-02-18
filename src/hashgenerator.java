@@ -1,5 +1,5 @@
 /**
- * Java Practice Project #3, Hash Generator.
+ * Java Practice Project, Hash Generator.
  * */
 
 import java.security.MessageDigest;
