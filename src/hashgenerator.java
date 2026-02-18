@@ -41,9 +41,10 @@ public class hashgenerator {
                 |  | |  | ___] |  |    |__] |___ | \\| |___ |  \\  |  |  |  |__| |  \\
                 """;
         System.out.println(title);
-        System.out.println("\nWelcome to Hash Generator!\n");
+        System.out.println("Welcome to Hash Generator!\n");
         System.out.println("Type 'exit' to quit.\n");
 
+        // Continuously ask for strings to hash until prompted to exit.
         while (true) {
             System.out.print("Enter a string to hash: ");
             String input = scanner.nextLine();
